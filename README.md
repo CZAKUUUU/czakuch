@@ -150,41 +150,164 @@ Ostatnim etapem jest wdrożenie systemu oraz jego bieżące utrzymanie. Opracowy
 
 ## Część 4: Zespół Projektowy
 
-### 1. Architekt Systemu
-Architekt systemu odpowiada za projektowanie ogólnej struktury aplikacji oraz zapewnienie, że wszystkie komponenty systemu będą ze sobą efektywnie współpracować. Jest odpowiedzialny za wybór odpowiednich technologii i narzędzi, które będą używane w projekcie. Architekt systemu zapewnia również, że projekt będzie skalowalny i elastyczny, aby mógł się rozwijać w przyszłości. Jego zadaniem jest również dbanie o bezpieczeństwo systemu i spełnianie wszystkich wymagań wydajnościowych.
+### **1. Architekt Systemu**  
+**Opis:**  
+Architekt systemu odpowiada za zaprojektowanie ogólnej struktury aplikacji oraz zapewnienie, że wszystkie jej komponenty współpracują ze sobą efektywnie. Jego zadaniem jest wybór odpowiednich technologii, dbanie o skalowalność, elastyczność oraz bezpieczeństwo systemu.  
 
-### 2. UX/UI Designer
-Projektant UX/UI zajmuje się tworzeniem interfejsu użytkownika, zapewniając, że aplikacja jest nie tylko funkcjonalna, ale także intuicyjna i przyjazna dla użytkownika. Projektant UX (User Experience) odpowiada za zrozumienie potrzeb użytkowników, projektowanie układu aplikacji, a także tworzenie prototypów, które będą testowane z użytkownikami. Designer UI (User Interface) koncentruje się na wizualnym aspekcie aplikacji, takim jak kolory, czcionki, ikony i elementy interaktywne, zapewniając spójny i estetyczny wygląd.
+**Wymagania:**  
+- Minimum 5 lat doświadczenia w projektowaniu systemów informatycznych.  
+- Dogłębna znajomość wzorców projektowych i architektury mikroserwisów.  
+- Umiejętność wyboru technologii (frontend, backend, bazy danych, chmura) odpowiednich do specyfikacji projektu.  
+- Doświadczenie w projektach o dużej skali i złożoności, obejmujących analizy geograficzne oraz AI.  
+- Znajomość protokołów bezpieczeństwa i narzędzi ochrony danych (np. szyfrowanie, firewalle).  
+- Umiejętność projektowania skalowalnych i odpornych na awarie systemów.  
+- Certyfikaty, takie jak TOGAF, będą dodatkowym atutem.  
 
-### 3. Tester oprogramowania
-Tester oprogramowania jest odpowiedzialny za testowanie aplikacji pod kątem błędów, wydajności i zgodności z wymaganiami. Jego zadaniem jest przeprowadzanie testów manualnych oraz automatycznych, sprawdzanie funkcji aplikacji i raportowanie błędów, które mogą wpływać na działanie systemu. Tester dba o to, aby aplikacja była wolna od krytycznych problemów przed jej wdrożeniem, zapewniając, że spełnia ona wszystkie założenia projektowe.
+---
 
-### 4. Front-End Developer
-Front-End Developer koncentruje się na tworzeniu interfejsu aplikacji, z którym użytkownicy będą wchodzić w interakcję. Zajmuje się implementowaniem projektów UX/UI, tworząc responsywne i funkcjonalne strony internetowe oraz aplikacje. Programista front-end pracuje z technologiami takimi jak HTML, CSS, JavaScript oraz frameworkami typu React lub Angular, aby zapewnić, że aplikacja będzie działać płynnie na różnych urządzeniach i przeglądarkach.
+### **2. UX/UI Designer**  
+**Opis:**  
+Projektant UX/UI odpowiada za tworzenie intuicyjnego i estetycznego interfejsu użytkownika. Skupia się na zrozumieniu potrzeb użytkowników oraz zaprojektowaniu interfejsów, które będą zarówno funkcjonalne, jak i atrakcyjne wizualnie.  
 
-### 5. Back-End Developer
-Back-End Developer odpowiada za stworzenie logiki aplikacji i zarządzanie danymi przechowywanymi w bazach danych. Jego zadaniem jest zapewnienie, że wszystkie operacje na danych są bezpieczne, szybkie i skalowalne. Programista back-end pracuje z technologiami serwerowymi, bazami danych, API, oraz logiką aplikacji, integrując systemy z bazami danych i innymi usługami zewnętrznymi. Odpowiada także za implementację mechanizmów bezpieczeństwa.
+**Wymagania:**  
+- Minimum 3 lata doświadczenia w projektowaniu interfejsów użytkownika.  
+- Znajomość narzędzi do prototypowania, takich jak Figma, Adobe XD lub Sketch.  
+- Doświadczenie w projektowaniu aplikacji mobilnych i webowych zgodnych z zasadami UX.  
+- Znajomość zasad projektowania dostępności (WCAG).  
+- Umiejętność przeprowadzania testów użyteczności z użytkownikami końcowymi.  
+- Doświadczenie w tworzeniu design systemów i spójnych interfejsów wizualnych.  
+- Portfolio zawierające projekty związane z tworzeniem aplikacji opartej na analizie danych.  
 
-### 6. AI Engineer
-Inżynier AI zajmuje się tworzeniem i trenowaniem algorytmów sztucznej inteligencji, które będą wykorzystywane do analizy danych wizualnych w projekcie. Jego zadaniem jest opracowanie i implementacja modeli AI, takich jak sieci neuronowe (CNN), które będą w stanie rozpoznać i sklasyfikować zniszczenia na obrazach przed i po konflikcie. AI Engineer współpracuje z zespołem analityków danych, aby zapewnić, że modele są odpowiednio trenowane i dostosowane do specyficznych wymagań projektu.
+---
 
-### 7. GIS Specialist
-Specjalista GIS (Geographic Information Systems) odpowiada za przetwarzanie i analizowanie danych geograficznych, takich jak zdjęcia satelitarne, mapy i dane przestrzenne. GIS Specialist przygotowuje dane przestrzenne, które są wykorzystywane do analizy zniszczeń w określonych lokalizacjach oraz do generowania map i wizualizacji geograficznych. Pomaga również w integracji danych geolokalizacyjnych z innymi systemami analitycznymi.
+### **3. Tester Oprogramowania**  
+**Opis:**  
+Tester oprogramowania jest odpowiedzialny za zapewnienie, że aplikacja działa zgodnie z wymaganiami, jest wolna od błędów oraz spełnia standardy jakości. Jego praca obejmuje zarówno testy manualne, jak i automatyczne.  
 
-### 8. Specjalista ds. Integracji Danych
-Specjalista ds. integracji danych jest odpowiedzialny za łączenie różnych źródeł danych w jeden spójny system. Zajmuje się pozyskiwaniem, transformowaniem i ładowaniem (ETL) danych z różnych systemów oraz zapewnia ich poprawność, integralność i spójność. Jego rola polega na integracji danych z zewnętrznych źródeł, takich jak bazy danych satelitarne czy raporty rządowe, a także na synchronizacji tych danych z systemami aplikacji, aby wspierały one analizę i generowanie raportów.
+**Wymagania:**  
+- Minimum 2 lata doświadczenia w testowaniu aplikacji mobilnych i webowych.  
+- Znajomość narzędzi do automatyzacji testów, takich jak Selenium, JMeter lub Cypress.  
+- Doświadczenie w tworzeniu planów testowych i scenariuszy testowych.  
+- Znajomość podstawowych metodyk Agile i DevOps.  
+- Umiejętność raportowania błędów i współpracy z zespołem programistów.  
+- Wiedza na temat testowania aplikacji związanych z analizą danych i integracjami API.  
 
-### 9. Ekspert prawny
-Ekspert prawny w projekcie zajmuje się analizą przepisów prawnych związanych z odbudową infrastruktury w rejonach dotkniętych wojną. Odpowiada za zapewnienie, że wszystkie działania projektu są zgodne z obowiązującymi regulacjami prawnymi, w tym prawem międzynarodowym i lokalnym. Ekspert ten może również pomóc w kwestiach związanych z ochroną danych osobowych, regulacjami dotyczącymi dostępności informacji oraz odpowiedzialnością cywilną w przypadku błędów w analizie.
+---
 
-### 10. Ekspert ds. odbudowy infrastruktury
-Ekspert ds. odbudowy infrastruktury odpowiada za tworzenie strategii odbudowy terenów dotkniętych wojną, bazując na wynikach analiz systemu. Doradza w kwestiach dotyczących technologii budowlanych, dostępności materiałów oraz oceny stopnia zniszczeń. Jego zadaniem jest także wspieranie systemu w oszacowywaniu kosztów odbudowy na podstawie danych wejściowych oraz proponowanie praktycznych rozwiązań w zakresie planowania i realizacji projektów odbudowy.
+### **4. Front-End Developer**  
+**Opis:**  
+Front-End Developer zajmuje się tworzeniem interfejsu aplikacji, z którym użytkownicy będą wchodzić w interakcje. Implementuje projekt graficzny w funkcjonalną i responsywną stronę internetową lub aplikację.  
 
-### 11. Specjalista ds. cyberbezpieczeństwa
-Specjalista ds. cyberbezpieczeństwa odpowiada za ochronę systemu przed zagrożeniami związanymi z bezpieczeństwem IT, takimi jak ataki hakerskie, malware, kradzież danych i inne rodzaje cyberzagrożeń. Zapewnia, że dane przechowywane w systemie są odpowiednio szyfrowane, a dostęp do nich jest kontrolowany. Specjalista ten współpracuje z zespołem w celu implementacji strategii ochrony prywatności oraz weryfikacji zgodności systemu z międzynarodowymi standardami bezpieczeństwa danych.
+**Wymagania:**  
+- Minimum 3 lata doświadczenia w tworzeniu aplikacji webowych.  
+- Bardzo dobra znajomość HTML, CSS, JavaScript oraz frameworków takich jak React, Angular lub Vue.js.  
+- Doświadczenie w implementacji responsywnych interfejsów użytkownika (RWD).  
+- Umiejętność pracy z narzędziami do kontroli wersji, takimi jak Git.  
+- Znajomość zasad optymalizacji wydajności interfejsów użytkownika.  
+- Doświadczenie w integracji aplikacji z API.  
 
-### 12. Pentester
-Pentester (tester penetracyjny) wykonuje testy bezpieczeństwa, symulując ataki na system w celu zidentyfikowania potencjalnych luk w zabezpieczeniach. Jego zadaniem jest sprawdzenie, jak system reaguje na próby nieautoryzowanego dostępu i jakie są możliwe drogi ataków. Pentester analizuje także systemy zewnętrzne zintegrowane z aplikacją i pomaga wykrywać oraz naprawiać słabe punkty, aby zapewnić, że aplikacja jest odporna na cyberzagrożenia.
+---
+
+### **5. Back-End Developer**  
+**Opis:**  
+Back-End Developer jest odpowiedzialny za logikę aplikacji oraz zarządzanie danymi i integracją z zewnętrznymi systemami. Tworzy i utrzymuje serwery, API oraz bazy danych.  
+
+**Wymagania:**  
+- Minimum 3 lata doświadczenia w programowaniu back-endowym.  
+- Znajomość języków takich jak Python, Java, C#, Ruby lub PHP.  
+- Doświadczenie z frameworkami, np. Django, Flask, Spring Boot.  
+- Znajomość baz danych SQL i NoSQL (np. PostgreSQL, MongoDB).  
+- Doświadczenie w budowaniu i integracji API RESTful.  
+- Wiedza na temat bezpieczeństwa aplikacji i ochrony danych.  
+
+---
+
+### **6. AI Engineer**  
+**Opis:**  
+AI Engineer opracowuje modele sztucznej inteligencji, które analizują dane wizualne i przestrzenne. Jego praca koncentruje się na projektowaniu algorytmów wykorzystywanych w analizie zniszczeń.  
+
+**Wymagania:**  
+- Minimum 2 lata doświadczenia w pracy z algorytmami uczenia maszynowego.  
+- Znajomość języków takich jak Python oraz bibliotek ML/AI (TensorFlow, PyTorch, scikit-learn).  
+- Doświadczenie w projektowaniu i trenowaniu modeli opartych na sieciach neuronowych.  
+- Znajomość technik przetwarzania obrazu (computer vision).  
+- Doświadczenie w pracy z dużymi zbiorami danych oraz narzędziami big data.  
+
+---
+
+### **7. GIS Specialist**  
+**Opis:**  
+Specjalista GIS analizuje dane geograficzne i przestrzenne, aby wspierać system w generowaniu map i wizualizacji geograficznych. Współpracuje z zespołem przy integracji danych przestrzennych.  
+
+**Wymagania:**  
+- Minimum 2 lata doświadczenia w pracy z systemami GIS.  
+- Znajomość narzędzi takich jak QGIS, ArcGIS, Google Earth Engine.  
+- Doświadczenie w analizie i wizualizacji danych przestrzennych.  
+- Znajomość formatów danych geograficznych, np. GeoJSON, shapefile.  
+- Umiejętność integracji danych GIS z aplikacjami webowymi.  
+
+---
+
+### **8. Specjalista ds. Integracji Danych**  
+**Opis:**  
+Specjalista ds. integracji danych odpowiada za łączenie danych z różnych źródeł, takich jak zdjęcia satelitarne, plany zagospodarowania terenu i raporty.  
+
+**Wymagania:**  
+- Minimum 2 lata doświadczenia w procesach ETL (Extract, Transform, Load).  
+- Znajomość narzędzi takich jak Apache NiFi, Talend, Informatica.  
+- Umiejętność pracy z bazami danych SQL i NoSQL.  
+- Doświadczenie w integracji danych z zewnętrznych API.  
+- Znajomość zasad czyszczenia i przetwarzania danych.  
+
+---
+
+### **9. Ekspert Prawny**  
+**Opis:**  
+Ekspert prawny zapewnia, że wszystkie działania projektu są zgodne z obowiązującymi przepisami prawnymi, w tym prawem międzynarodowym i lokalnym.  
+
+**Wymagania:**  
+- Wykształcenie prawnicze z doświadczeniem w prawie międzynarodowym.  
+- Znajomość regulacji dotyczących odbudowy infrastruktury w rejonach objętych konfliktami.  
+- Doświadczenie w ochronie danych osobowych (RODO, GDPR).  
+- Umiejętność analizy przepisów związanych z zamówieniami publicznymi.  
+
+---
+
+### **10. Specjalista ds. Cyberbezpieczeństwa**  
+**Opis:**  
+Specjalista ds. cyberbezpieczeństwa chroni system przed zagrożeniami, zapewniając bezpieczeństwo danych i aplikacji.  
+
+**Wymagania:**  
+- Minimum 3 lata doświadczenia w obszarze cyberbezpieczeństwa.  
+- Znajomość narzędzi do analizy bezpieczeństwa, takich jak Nessus, Metasploit.  
+- Doświadczenie w zabezpieczaniu API oraz systemów bazodanowych.  
+- Znajomość standardów bezpieczeństwa, np. OWASP, ISO 27001.  
+
+---
+
+### **11. Pentester**  
+**Opis:**  
+Pentester przeprowadza testy penetracyjne, aby wykryć luki w systemach i aplikacjach. Symuluje ataki hakerskie, aby sprawdzić odporność na zagrożenia.  
+
+**Wymagania:**  
+- Minimum 3 lata doświadczenia w testach penetracyjnych.  
+- Znajomość narzędzi takich jak Burp Suite, Kali Linux, Metasploit.  
+- Doświadczenie w testach bezpieczeństwa sieci i aplikacji webowych.  
+- Znajomość technik ataków, takich jak SQL Injection, XSS, CSRF.  
+- Certyfikaty, takie jak CEH, OSCP, będą dodatkowym atutem.  
+
+---
+
+### **12. Ekspert ds. odbudowy infrastruktury**  
+**Opis:**  
+Ekspert ds. odbudowy infrastruktury tworzy strategie odbudowy terenów dotkniętych wojną, bazując na analizach i danych systemowych.  
+
+**Wymagania:**  
+- Wykształcenie w zakresie inżynierii budowlanej lub pokrewnych dziedzin.  
+- Minimum 5 lat doświadczenia w realizacji projektów budowlanych.  
+- Znajomość nowoczesnych technologii budowlanych i zarządzania projektami.  
+- Doświadczenie w oszacowywaniu kosztów odbudowy infrastruktury.  
+- Umiejętność analizy zniszczeń i planowania odbudowy na podstawie danych wizualnych i przestrzennych.  
 
 ---
 
